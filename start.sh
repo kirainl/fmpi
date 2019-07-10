@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo python web_server.py
+sudo python list.py
