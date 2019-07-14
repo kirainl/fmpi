@@ -14,8 +14,6 @@ so……~笔者删除了关于web服务器方面的的所有代码~(还是没删
 
 音乐文件在list.py中修改目录和mp3文件名称。
 
-*以下是原简介：*
-
 ### 简介
 
 前段时间有人发贴说用树莓派可以发射FM收音机信号，
@@ -73,7 +71,7 @@ mpg123 -m -C -q -s http://abc.com/123.mp3 | sudo pifm - 98.5 44100
 为了简化安装部署，我专门写了一个安装脚本，就是setup.sh，
 直接执行就能安装。（注意，本系统树莓派专用，请不要在电脑上执行此脚本）
 ```shell
-wget https://github.com/ma6174/fmpi/archive/master.zip
+wget https://github.com/kirainl/fmpi/archive/master.zip
 unzip master.zip
 cd fmpi-master
 sudo bash setup.sh
@@ -85,7 +83,7 @@ sudo bash setup.sh
 运行的话可以直接执行程序里面的`start.sh`:
 
 ```bash
-sudo bash start.sh
+bash start.sh
 ```
 
 然后在树莓派的GPIO4这个引脚上插上一根杜邦线当天线
@@ -102,4 +100,4 @@ sudo bash start.sh
 ### 其他
 
 对本系统感兴趣的话可以去github上查看源码，扩充系统功能：
-`https://github.com/ma6174/fmpi`
+`https://github.com/kirainl/fmpi`
