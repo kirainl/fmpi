@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo python list.py
+python list.py
